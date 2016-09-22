@@ -12,6 +12,8 @@ public class YahooActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yahoo);
 
+
+        //YAHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!
         WebView myWebView = (WebView) findViewById(R.id.webViewYahoo);
         myWebView.setWebViewClient(new WebViewClient()); //force yahoo to stay in our app
         myWebView.loadUrl("http://www.yahoo.com");
